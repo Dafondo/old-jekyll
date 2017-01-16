@@ -2,33 +2,6 @@
 @import "normalize";
 @import "fluid_skeleton";
 @import url(http://fonts.googleapis.com/css?family=PT+Sans:400,700|PT+Serif:400,700);
-@media only screen and (min-width: 767px) { 
-	body {
-        font-size: 1.125em; /* 18px / 16px */
-        line-height: 1.7em;
-    }
- 
-    header.band {
-        background-image:url(../img/background2.jpg);
-        background-size: 100%;
-    }
-     
-    header.band h1 {
-        font-size: 3.25em; /*52 / 16*/
-    }
-     
-    a.button {
-        padding: .75em 1.5em;
-    }
-}
-
-@media only screen and (max-width: 767px) {
-	header.band {
-		background-image:url(../img/background-mobile.jpg);
-		background-size: 100%;
-		/*background: #4b371f;*/
-	}
-}
 
 html {
     font: 100%/1.5em 'PT Sans', sans-serif;
@@ -76,6 +49,8 @@ footer {
 }
 
 header.band {
+	background-image:url(../img/background-mobile.jpg);
+	background-size: 100%;
     color: white;
     text-align: center;
     padding: 10% 0 15% 0;
@@ -114,3 +89,32 @@ a.button {
 a.button:hover {
     background: #ab3009;
 }
+
+@media only screen and (min-width: 767px) { 
+	body {
+        font-size: 1.125em; /* 18px / 16px */
+        line-height: 1.7em;
+    }
+ 
+    header.band {
+        background-image:url(../img/background2.jpg);
+        background-size: 100%;
+    }
+     
+    header.band h1 {
+        font-size: 3.25em; /*52 / 16*/
+    }
+     
+    a.button {
+        padding: .75em 1.5em;
+    }
+}
+
+/**
+@media only screen and (max-width: 767px) {
+	header.band {
+		background-image:url(../img/background-mobile.jpg);
+		background-size: 100%;
+		background: #4b371f;
+	}
+}**/
