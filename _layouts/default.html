@@ -1,19 +1,23 @@
 <!DOCTYPE html>
 	<html>
 		<head>
+			<meta charset="utf-8">
+			<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
 			<title>{{ page.title }}</title>
-			<!-- link to main stylesheet -->
-			<link rel="stylesheet" type="text/css" href="/css/main.css">
+			<link rel="stylesheet" href="/stylesheets/styles.css"> <!--type="text/css" href="/css/main.css">-->
 		</head>
 		<body>
+			<div class="header">
 			<nav>
 	    		<ul>
 	        		<li><a href="/">Home</a></li>
 		        	<li><a href="/about">About</a></li>
-	        		<li><a href="/cv">CV</a></li>
+	        		<li><a href="/cv">Resume</a></li>
+					<li><a href="/projects">Projects</a></li>
 	        		<li><a href="/blog">Blog</a></li>
 	    		</ul>
 			</nav>
+			</div>
 			<div class="container">
 
 			{{ content }}
@@ -25,5 +29,11 @@
 	        		<li><a href="https://github.com/dafondo">github.com/dafondo</a></li>
 				</ul>
 			</footer>
+			<script type="text/javascript" src="js/skrollr.js"></script>
+			<script type="text/javascript">
+				skrollr.init({
+					forceHeight: false
+				});
+			</script>
 		</body>
 	</html>
