@@ -30,9 +30,11 @@
 
 html {
     font: 100%/1.5em 'PT Sans', sans-serif;
+	overflow: scroll;
+	-webkit-overflow-scrolling: touch;
 }
 
-.header {
+#header {
 	background-color: WHITE;
 	position: fixed;
 	top: 0;
