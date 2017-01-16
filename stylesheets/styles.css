@@ -834,17 +834,18 @@ or wrap each row of columns in a <div class="row"> */
 @media only screen and (max-width: 767px) {
   /* line 26, ../sass/styles.scss */
   header.band {
-    background: #4b371f;
+    background-image: url(../img/background-mobile.jpg);
+    /*background: #4b371f;*/
   }
 }
-/* line 31, ../sass/styles.scss */
+/* line 32, ../sass/styles.scss */
 html {
   font: 100%/1.5em 'PT Sans', sans-serif;
   overflow: scroll;
   -webkit-overflow-scrolling: touch;
 }
 
-/* line 37, ../sass/styles.scss */
+/* line 38, ../sass/styles.scss */
 #navbar {
   background-color: WHITE;
   position: fixed;
@@ -854,7 +855,7 @@ html {
   z-index: 999;
 }
 
-/* line 46, ../sass/styles.scss */
+/* line 47, ../sass/styles.scss */
 nav ul, footer ul {
   font-family: 'PT Serif', serif;
   text-align: center;
@@ -863,56 +864,56 @@ nav ul, footer ul {
   font-weight: bold;
 }
 
-/* line 54, ../sass/styles.scss */
+/* line 55, ../sass/styles.scss */
 nav ul li, footer ul li {
   display: inline;
   margin-right: 20px;
 }
 
-/* line 59, ../sass/styles.scss */
+/* line 60, ../sass/styles.scss */
 .container {
   margin-top: 100px;
 }
 
-/* line 63, ../sass/styles.scss */
+/* line 64, ../sass/styles.scss */
 a {
   text-decoration: none;
   color: #999;
 }
 
-/* line 67, ../sass/styles.scss */
+/* line 68, ../sass/styles.scss */
 a:hover {
   text-decoration: underline;
 }
 
-/* line 71, ../sass/styles.scss */
+/* line 72, ../sass/styles.scss */
 footer {
   border-top: 1px solid #d5d5d5;
   font-size: .8em;
 }
 
-/* line 76, ../sass/styles.scss */
+/* line 77, ../sass/styles.scss */
 header.band {
   color: white;
   text-align: center;
   padding: 10% 0 15% 0;
 }
 
-/* line 82, ../sass/styles.scss */
+/* line 83, ../sass/styles.scss */
 h1, h2, h3 {
   font-family: 'PT Serif', serif;
   font-weight: 700;
   text-align: center;
 }
 
-/* line 88, ../sass/styles.scss */
+/* line 89, ../sass/styles.scss */
 header.band h1 {
   font-size: 3em;
   line-height: 1em;
   margin-bottom: 1em;
 }
 
-/* line 94, ../sass/styles.scss */
+/* line 95, ../sass/styles.scss */
 a.button {
   background: #e33f0c;
   text-align: center;
@@ -934,7 +935,7 @@ a.button {
   /* Firefox 16+, Opera 12.50+ */
 }
 
-/* line 112, ../sass/styles.scss */
+/* line 113, ../sass/styles.scss */
 a.button:hover {
   background: #ab3009;
 }
