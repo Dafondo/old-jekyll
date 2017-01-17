@@ -1,17 +1,8 @@
 ---
 layout: webGL
+title: "maze"
 ---
-<!doctype html>
-<html lang="en-us">
-  <head>
-    <meta charset="utf-8">
-    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
-    <title>Unity WebGL Player | Maze</title>
-    <link rel="stylesheet" href="TemplateData/style.css">
-    <link rel="shortcut icon" href="TemplateData/favicon.ico" />
-    <script src="TemplateData/UnityProgress.js"></script>
-  </head>
-  <body class="template">
+  <div class="template">
     <div class="template-wrap clear">
       <canvas class="emscripten" id="canvas" oncontextmenu="event.preventDefault()" height="600px" width="960px"></canvas>
       <br>
@@ -26,13 +17,11 @@ layout: webGL
     compatibilitycheck: null,
     backgroundColor: "#222C36",
     splashStyle: "Light",
-    dataUrl: "Release/WebGL.data",
-    codeUrl: "Release/WebGL.js",
-    asmUrl: "Release/WebGL.asm.js",
-    memUrl: "Release/WebGL.mem",
+    dataUrl: "/demos/maze/Release/WebGL.data",
+    codeUrl: "/demos/maze/Release/WebGL.js",
+    asmUrl: "/demos/maze/Release/WebGL.asm.js",
+    memUrl: "/demos/maze/Release/WebGL.mem",
   };
 </script>
-<script src="Release/UnityLoader.js"></script>
-
-  </body>
-</html>
+<script src="/demos/maze/Release/UnityLoader.js"></script>
+</div>

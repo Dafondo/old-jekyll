@@ -1,0 +1,54 @@
+@import url(http://fonts.googleapis.com/css?family=PT+Sans:400,700|PT+Serif:400,700);
+/* line 3, ../sass/reducedstyle.scss */
+html {
+  font: 100%/1.5em 'PT Sans', sans-serif;
+  -webkit-overflow-scrolling: touch;
+}
+
+/* line 8, ../sass/reducedstyle.scss */
+#navbar {
+  background-color: WHITE;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 999;
+}
+
+/* line 17, ../sass/reducedstyle.scss */
+nav ul, footer ul {
+  font-family: 'PT Serif', serif;
+  text-align: center;
+  padding: 0px;
+  list-style: none;
+  font-weight: bold;
+}
+
+/* line 25, ../sass/reducedstyle.scss */
+nav ul li, footer ul li {
+  display: inline;
+  margin-right: 20px;
+}
+
+/* line 30, ../sass/reducedstyle.scss */
+.container {
+  margin-top: 100px;
+}
+
+/* line 34, ../sass/reducedstyle.scss */
+a {
+  text-decoration: none;
+  color: #999;
+}
+
+/* line 38, ../sass/reducedstyle.scss */
+a:hover {
+  text-decoration: underline;
+}
+
+/* line 42, ../sass/reducedstyle.scss */
+footer {
+  border-top: 1px solid #d5d5d5;
+  font-size: .8em;
+  margin-top: 53%;
+}

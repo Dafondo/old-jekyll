@@ -4,4 +4,4 @@ title: "A-MAZE-ING"
 year: "2016"
 ---
 
-[WebGL](/portfolio/maze)
+[WebGL Demo](/demos/maze)
