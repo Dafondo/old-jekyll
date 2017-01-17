@@ -1,0 +1,29 @@
+---
+layout: default
+title: Projects
+---
+
+<h1>Projects</h1>
+
+<!--
+{% for collection in site.collections %}
+    <p>{{ collection.label }}</p>
+{% endfor %}
+-->
+
+{% capture years %}
+  {% for year in site.years %}
+    {{ year.tag }}
+  {% endfor %}
+{% endcapture %}
+{% assign sortedyears = years | split:' ' | sort %}
+{% for year in sortedyears %}
+  <a href="/years/{{ year }}/">{{ year }}</a><br>
+  <ul>
+  {% for project in site.projects %}
+    {% if project.year == year %}
+      <li><a href="{{ project.url }}" title="{{ project.title }}">{{ project.title }}</a></li>
+    {% endif %}
+  {% endfor %}
+  </ul>
+{% endfor %}
